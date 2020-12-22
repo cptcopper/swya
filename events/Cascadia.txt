@@ -1,0 +1,15 @@
+add_namespace = cas
+
+# Intro
+country_event = {
+	id = cas.0
+	title = cas.0.t
+	desc = cas.0.d
+	picture = GFX_report_event_
+
+	is_triggered_only = yes
+
+	option = {
+		name = cas.0.a
+	}
+}

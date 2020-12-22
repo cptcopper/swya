@@ -1,0 +1,96 @@
+﻿capital = 769
+
+country_event = {
+	id = cas.0
+	days = 1
+}
+
+set_politics = {
+	ruling_party = social_liberal
+	last_election = "2010.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	communist = 1
+	revolutionary_socialist = 2
+	democratic_socialist = 4
+	social_democrat = 19
+	social_liberal = 31
+	market_liberal = 26
+	social_conservative = 12
+	right_wing_populist = 3
+	authoritarian = 0
+	ultranationalist = 2
+}
+
+create_country_leader = {
+	name = "Marc Brodine"
+	picture = "Marc_Brodine.png"
+	expire = "2025.1.1"
+	ideology = communist_subtype
+}
+
+create_country_leader = {
+	name = "Jordana Sardo"
+	picture = "Jordana_Sardo.png"
+	expire = "2025.1.1"
+	ideology = revolutionary_socialist_subtype
+}
+
+create_country_leader = {
+	name = "Kshama Sawant"
+	picture = "Kshama_Sawant.png"
+	expire = "2025.1.1"
+	ideology = democratic_socialist_subtype
+}
+
+create_country_leader = {
+	name = "Peter DeFazio"
+	picture = "Peter_DeFazio.png"
+	expire = "2025.1.1"
+	ideology = social_democrat_subtype
+}
+
+create_country_leader = {
+	name = "Adam Smith"
+	picture = "Adam_Smith.png"
+	expire = "2025.1.1"
+	ideology = social_liberal_subtype
+}
+
+create_country_leader = {
+	name = "Dave Reichert"
+	picture = "Dave_Reichert.png"
+	expire = "2025.1.1"
+	ideology = market_liberal_subtype
+}
+
+create_country_leader = {
+	name = "Cathy McMorris Rodgers"
+	picture = "Cathy_McMorris_Rodgers.png"
+	expire = "2025.1.1"
+	ideology = social_conservative_subtype
+}
+
+create_country_leader = {
+	name = "Don Benton"
+	picture = "Don_Benton.png"
+	expire = "2025.1.1"
+	ideology = right_wing_populist_subtype
+}
+
+create_country_leader = {
+	name = "Jim Mattis"
+	picture = "Jim_Mattis.png"
+	expire = "2025.1.1"
+	ideology = authoritarian_subtype
+}
+
+create_country_leader = {
+	name = "The Prophet"
+	picture = "Matt_Shea.png"
+	expire = "2025.1.1"
+	ideology = ultranationalist_subtype
+}
